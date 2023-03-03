@@ -19,7 +19,7 @@ int main()
   std::cout << "\n------------------\n";
 
   //Task C
-  std::cout << "The next prime number after 7 is: " << nextPrime(14) << "\n";
+  std::cout << "The next prime number after 7 is: " << nextPrime(7) << "\n";
   std::cout << "The next prime number after 19 is: " << nextPrime(19) << "\n";
 
   std::cout << "\n------------------\n";
@@ -32,21 +32,21 @@ int main()
 
   //Task E
   std::cout << "59 is: " << isTwinPrime(59) << "\n";
-  std::cout << "31 is: " << isTwinPrime(31) << "\n";
+  std::cout << "37 is: " << isTwinPrime(37) << "\n";
 
   std::cout << "\n------------------\n";
 
   //Task F
   std::cout << "The next prime twin number after 59 is: " << nextTwinPrime(59) << "\n";
   std::cout << "The next prime twin number after 73 is: " << nextTwinPrime(73) << "\n";
-  std::cout << "The next prime twin number after 83 is: " << nextTwinPrime(83) << "\n";
+  std::cout << "The next prime twin number after 29 is: " << nextTwinPrime(29) << "\n";
 
   std::cout << "\n------------------\n";
 
   //Task G
-  std::cout << "The largest twin prime between 1 and 5 is: " << largestTwinPrime(2,13) << "\n";
-  std::cout << "The largest twin prime between 1 and 31 is: " << largestTwinPrime(13,31) << "\n";
-  std::cout << "The largest twin prime between 14 and 16 is: " << largestTwinPrime(31,47) << "\n";
+  std::cout << "The largest twin prime between 1 and 5 is: " << largestTwinPrime(1,13) << "\n";
+  std::cout << "The largest twin prime between 1 and 31 is: " << largestTwinPrime(1,31) << "\n";
+  std::cout << "The largest twin prime between 14 and 16 is: " << largestTwinPrime(14,16) << "\n";
   
 
   return 0;
