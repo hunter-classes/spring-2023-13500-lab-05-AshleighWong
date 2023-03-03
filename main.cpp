@@ -44,7 +44,7 @@ int main()
   std::cout << "\n------------------\n";
 
   //Task G
-  std::cout << "The largest twin prime between 1 and 5 is: " << largestTwinPrime(1,13) << "\n";
+  std::cout << "The largest twin prime between 1 and 13 is: " << largestTwinPrime(1,13) << "\n";
   std::cout << "The largest twin prime between 1 and 31 is: " << largestTwinPrime(1,31) << "\n";
   std::cout << "The largest twin prime between 14 and 16 is: " << largestTwinPrime(14,16) << "\n";
   
