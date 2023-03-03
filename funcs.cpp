@@ -94,7 +94,7 @@ int largestTwinPrime(int a, int b)
   int bigTwinPrime;
   for(int i = a; i <= b; i++) //will test within range of a and b
   {
-    if(isTwinPrime(i))
+    if(isTwinPrime(i) == true)
     { 
       bigTwinPrime = i; //will keep changing if it works
     }
