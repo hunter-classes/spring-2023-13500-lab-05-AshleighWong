@@ -25,7 +25,7 @@ TEST_CASE("Prime numbers")
 //Task C
 TEST_CASE("Next smallest prime numbers")
 {
-  CHECK(nextPrime(7) == 11 );
+  CHECK(nextPrime(7) == 11);
   CHECK(nextPrime(19) == 23);
 }
 
@@ -42,7 +42,7 @@ TEST_CASE("Number of primes within range")
 TEST_CASE("Twin prime numbers")
 {
   CHECK(isTwinPrime(59) == true);
-  CHECK(isTwinPrime(31) == false);
+  CHECK(isTwinPrime(37) == false);
 }
 
 
